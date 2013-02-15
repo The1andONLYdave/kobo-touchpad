@@ -3,8 +3,18 @@ kobo-touchpad
 
 Using your Kobo Touch as a Touchpad for your Computer
 
-Install Python 2.7 32bit to c:\Python27\ 
-Install pywin32
-Put screen on the Kobo 
+Requires
+
+Python 2.7 in c:\Python27\
+
+pywin32 
+
+working telnet on your kobo
+
+__________
+
+Put the file 'screen' on the Kobo 
+
 your ip from kobo should go to both pythonscripts
-install telnet on your touch if not already done
+
+start run.bat or both pythonscripts after connecting your Kobo to wifi
