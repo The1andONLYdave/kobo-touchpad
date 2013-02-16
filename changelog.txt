@@ -12,3 +12,7 @@ restart-nickel.sh is not used at the moment
 button to chose between precise and faster mode
 config file for ip that you dont have to enter it every time
 more screen-files
+
+0.5
+branch to win and linux versions
+supported linux distributions will be gentoo and ubuntu 12.10
