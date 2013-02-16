@@ -3,18 +3,12 @@ kobo-touchpad
 
 Using your Kobo Touch as a Touchpad for your Computer
 
-Requires
+The win-executables are now under /build. Just start both after copy touchpad folder to .kobo on your device
 
-Python 2.7 in c:\Python27\
-
-pywin32 
-
-working telnet on your kobo
+They will ask you now for the ip of your kobo at start
 
 __________
 
-Put the file 'screen' on the Kobo 
+Requires
 
-your ip from kobo should go to both pythonscripts
-
-start run.bat or both pythonscripts after connecting your Kobo to wifi
+working telnet on your kobo

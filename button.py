@@ -5,7 +5,8 @@ import telnetlib
 #import win32api, win32con
 import time
 #version 0.2 with restart to nickel
-HOST = "192.168.0.30"
+#version 0.3 added ip input
+HOST = raw_input("Bitte IP eingeben: ")
 
 tn = telnetlib.Telnet(HOST)
 

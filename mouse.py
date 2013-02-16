@@ -5,6 +5,7 @@ import telnetlib
 import win32api, win32con
 import time
 #version 0.2 added left and right buttonzone
+#version 0.3 added ip input
 
 def move(x,y):
     win32api.SetCursorPos((x,y))
@@ -26,7 +27,7 @@ def right():
     win32api.mouse_event(win32con.MOUSEEVENTF_RIGHTUP,xx,yy,0,0)
     time.sleep(0.5)#after each button to not repeat it to often
 	
-HOST = "192.168.0.30"
+HOST = raw_input("Bitte IP eingeben: ")
 
 tn = telnetlib.Telnet(HOST)
 
@@ -34,7 +35,7 @@ tn.read_until("login: ")
 tn.write("root\n")
 
 tn.write("killall nickel\n")
-tn.write("cat /mnt/onboard/screen | /usr/local/Kobo/pickel showpic\n")
+tn.write("cat /mnt/onboard/.kobo/touchpad/screen | /usr/local/Kobo/pickel showpic\n")
 
 tn.write("evtest /dev/input/event1\n")
 

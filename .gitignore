@@ -1,0 +1,14 @@
+build/*
+dist/button/*.pyd
+dist/button/*.manifest
+dist/button/*.dll
+dist/mouse/*.pyd
+dist/mouse/*.manifest
+dist/mouse/*.dll
+button.spec
+mouse.spec
+logdict*
+Thumbs.db
+.DS_Store
+*.bak
+

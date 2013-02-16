@@ -1,0 +1,14 @@
+changelog
+
+0.3
+added ip query on startup
+now distributing win-executables without need for python installed
+screen now under .kobo/touchpad because there will be more on 0.4
+added .gitignore file for temporary build files and backups
+if you want run the .py files yourself, you need python-2.7 and pywin32 installed
+restart-nickel.sh is not used at the moment
+
+0.4
+button to chose between precise and faster mode
+config file for ip that you dont have to enter it every time
+more screen-files
